@@ -1,2 +1,1 @@
-# open-source
-Guance Cloud open source landscape.
+# Guance Cloud Open Source Single Trusted Source
