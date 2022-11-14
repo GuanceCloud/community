@@ -53,7 +53,7 @@ repositories: datakit: {
 }
 
 repositories: "java-profiling-demo": {
- description: "guance cloud profiling case demo (java)"
+ description: "Guance Cloud profiling case demo (java)"
  topics: [
   "datakit",
   "profiling",
@@ -76,7 +76,7 @@ repositories: "dataflux-func": {
 }
 
 repositories: "datakit-ios": {
- description: "datakit ios app"
+ description: "DataKit ios app"
  topics: [
   "datakit",
   "ios",
@@ -98,7 +98,7 @@ repositories: "datakit-cpp": {
 }
 
 repositories: "datakit-android": {
- description: "datakit Android app"
+ description: "Datakit Android app"
  topics: [
   "datakit",
   "java",

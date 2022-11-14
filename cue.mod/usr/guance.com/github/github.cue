@@ -43,8 +43,8 @@ import (
 			}
 
 			_code: {
-				module: main: source: "yufeiminds/repositories/github"
-				// module: main: source: "./modules/terraform-github-repositories"
+				// module: main: source: "yufeiminds/repositories/github"
+				module: main: source: "./modules/terraform-github-repositories"
 				module: main: _variables
 				terraform: backend: kubernetes: secret_suffix: "github"
 			}
