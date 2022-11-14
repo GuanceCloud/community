@@ -4,8 +4,8 @@ teams: infra: {
 	description: "The team for infra"
 	members: [
 		{
-			username: "yufeiminds"
-			role:     "member"
+			username: "coanor"
+			role:     "maintainer"
 		},
 		{
 			username: "BrotherSam66"
@@ -13,10 +13,6 @@ teams: infra: {
 		},
 		{
 			username: "charleswan"
-			role:     "member"
-		},
-		{
-			username: "coanor"
 			role:     "member"
 		},
 		{
@@ -30,6 +26,10 @@ teams: infra: {
 		{
 			username: "zhyee"
 			role:     "member"
+		},
+		{
+			username: "yufeiminds"
+			role:     "maintainer"
 		},
 	]
 }
