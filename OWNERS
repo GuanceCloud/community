@@ -1,3 +1,4 @@
 approvers:
   - yufeiminds
-reviewers: []
+reviewers:
+  - guance-bot
