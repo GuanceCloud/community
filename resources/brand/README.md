@@ -37,8 +37,8 @@ Icon:
 
 Text:
 
-* White: RGB: #ffffff, CMYK: 0,0,0,0
-* Black: RGB: #000000, CMYK: 50,40,40,100
+* White: RGB: `#ffffff`, CMYK: 0,0,0,0
+* Black: RGB: `#000000`, CMYK: 50,40,40,100
 
 Background:
 
