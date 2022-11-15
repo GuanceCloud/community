@@ -30,15 +30,20 @@ Icon:
 
 ### Colors
 
+Icon:
+
+* Color: for colorful icon
+* mono: for icon that is only white or black
+
 Text:
 
-* White (#ffffff)
-* Black (#000000)
+* White: RGB: #ffffff, CMYK: 0,0,0,0
+* Black: RGB: #000000, CMYK: 50,40,40,100
 
 Background:
 
-* Transparent
-* Inherit
+* Transparent: with transparent background
+* Opaque: with opaque background
 
 ### Spacing Considerations
 
