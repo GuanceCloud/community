@@ -2,4 +2,5 @@ approvers:
   - yufeiminds
   - coanor
   - livesiteme
-reviewers: []
+reviewers:
+  - guance-bot
