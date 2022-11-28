@@ -1,7 +1,7 @@
 # Artifacts
 build/
 
-# Temporary files
+# Temp files
 .DS_Store
 
 # Editors
