@@ -1,6 +1,10 @@
+# Artifacts
 build/
 
+# Temp files
 .DS_Store
+
+# Editors
+*.swp
 .vscode/
 .idea/
-
