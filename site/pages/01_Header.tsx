@@ -60,7 +60,7 @@ const blogPosts = [
   },
 ]
 
-function classNames(...classes) {
+function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ')
 }
 
@@ -92,9 +92,7 @@ export default function Header() {
                 {({ open }) => (
                   <>
                     <Popover.Button
-                      className={classNames(
-                        'text-white group inline-flex items-center rounded-md text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2'
-                      )}
+                      className='text-white group inline-flex items-center rounded-md text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2'
                     >
                       <span>Projects</span>
                       <ChevronDownIcon
