@@ -1,14 +1,5 @@
 package guancecloud
 
-repositories: "open-source": {
- description: "Guance Cloud open source landscape"
- topics: [
-  "open-source",
- ]
- private: true
- teams: infra: "member"
-}
-
 repositories: community: {
  description: "Guance Cloud Open Source Community"
  topics: [
@@ -26,9 +17,18 @@ repositories: ppl: {
   "observability",
   "go",
  ]
- private: true
  teams: infra: "member"
 }
+
+// repositories: "datakit-operator": {
+//  description: "Kubernetes Operator for DataKit"
+//  topics: [
+//   "javascript",
+//   "datakit",
+//  ]
+//  private: false
+//  teams: client: "member"
+// }
 
 repositories: scheck: {
  description: "Safety observable tool"

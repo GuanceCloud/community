@@ -38,7 +38,7 @@ See follow documentation for details:
 If you want to contribute. But don't know how to begin? This guide may be helpful for you.
 
 1. Pick the **Good first issue**: 
-   1. [PPL](https://github.com/GuanceCloud/ppl/labels/good%20first%20issue): The Pipeline Processing Language.
+   1. [Platypus](https://github.com/GuanceCloud/ppl/labels/good%20first%20issue): The Pipeline Processing Language.
 2. Comment on the issue to request an assignment.
 3. Fork the repository to your own account.
 4. Coding and running pre-commit hook for [style lint](#style-lint) and [unit test](#unit-test).
