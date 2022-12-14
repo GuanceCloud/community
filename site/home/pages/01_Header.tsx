@@ -35,9 +35,9 @@ const solutions = [
     },
   },
 ]
-const callsToAction = [
-  { name: 'Watch Demo', href: '#', icon: PlayIcon },
-  { name: 'View All Products', href: '#', icon: CheckCircleIcon },
+const callsToAction: object[] = [
+  // { name: 'Watch Demo', href: '#', icon: PlayIcon },
+  // { name: 'View All Products', href: '#', icon: CheckCircleIcon },
 ]
 const events = [
   { name: 'Webinars', href: '#', icon: ComputerDesktopIcon },
@@ -220,7 +220,10 @@ export default function Header() {
                         <div className="relative mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
                           <nav className="grid gap-y-10 bg-white px-4 py-8 sm:grid-cols-2 sm:gap-x-8 sm:py-12 sm:px-6 lg:px-8 xl:pr-12">
                             <div>
-                              <h3 className="text-base font-medium text-gray-500">Events</h3>
+                              <h3 className="text-base font-medium text-gray-500">
+                                Events &nbsp;
+                                <span className="inline-flex items-center rounded-full bg-indigo-100 px-2.5 py-0.5 text-xs font-medium text-indigo-800">Coming soon</span>
+                              </h3>
                               <ul role="list" className="mt-5 space-y-6">
                                 {events.map((item) => (
                                   <li key={item.name} className="flow-root">
@@ -236,7 +239,10 @@ export default function Header() {
                               </ul>
                             </div>
                             <div>
-                              <h3 className="text-base font-medium text-gray-500">Resources</h3>
+                              <h3 className="text-base font-medium text-gray-500">
+                                Resources &nbsp;
+                                <span className="inline-flex items-center rounded-full bg-indigo-100 px-2.5 py-0.5 text-xs font-medium text-indigo-800">Coming soon</span>
+                              </h3>
                               <ul role="list" className="mt-5 space-y-6">
                                 {resources.map((item) => (
                                   <li key={item.name} className="flow-root">

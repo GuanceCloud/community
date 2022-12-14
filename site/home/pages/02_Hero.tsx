@@ -45,18 +45,18 @@ export default function Hero() {
                     Open Source Observability Toolkit for Developers
                   </p>
                   <div className="mt-10 sm:mt-12">
-                    <form action="#" className="sm:mx-auto sm:max-w-xl lg:mx-0">
-                      <div className="sm:flex">
-                        <div className="">
-                          <button
-                            type="submit"
-                            className="block w-full rounded-md bg-indigo-500 py-3 px-4 font-medium text-white shadow hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-300 focus:ring-offset-2 focus:ring-offset-gray-900"
-                          >
-                            View on GitHub
-                          </button>
-                        </div>
+                    <div className="sm:flex">
+                      <div className="">
+                        <a
+                          href="https://github.com/GuanceCloud"
+                          target="_blank"
+                          rel="noreferrer"
+                          className="block w-full rounded-md bg-indigo-500 py-3 px-4 font-medium text-white shadow hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-300 focus:ring-offset-2 focus:ring-offset-gray-900"
+                        >
+                          View on GitHub
+                        </a>
                       </div>
-                    </form>
+                    </div>
                   </div>
                 </div>
               </div>
