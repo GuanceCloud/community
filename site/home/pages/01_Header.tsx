@@ -26,7 +26,7 @@ const solutions = [
     name: 'Platypus',
     description: 'A Programming Language for Observability Data Pipelines',
     href: 'https://platypus.guance.io/',
-    icon: () => {
+    icon: ({ ... props }: any) => {
         return <img
           src="/images/platypus.png"
           alt=''
