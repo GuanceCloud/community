@@ -35,7 +35,11 @@ const solutions = [
     },
   },
 ]
-const callsToAction: object[] = [
+const callsToAction: {
+  name: string
+  href: string 
+  icon: ({ ... props }: any) => JSX.Element
+}[] = [
   // { name: 'Watch Demo', href: '#', icon: PlayIcon },
   // { name: 'View All Products', href: '#', icon: CheckCircleIcon },
 ]
