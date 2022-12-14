@@ -26,7 +26,13 @@ const solutions = [
     name: 'Platypus',
     description: 'A Programming Language for Observability Data Pipelines',
     href: 'https://platypus.guance.io/',
-    icon: ChartBarIcon,
+    icon: () => {
+        return <img
+          src="/images/platypus.png"
+          alt=''
+          className='h-8 w-8 mx-auto'
+        />
+    },
   },
 ]
 const callsToAction = [
@@ -48,23 +54,23 @@ const blogPosts: {
   preview: string
   imageUrl: string
 }[] = [
-  // {
-  //   id: 1,
-  //   name: 'Boost your conversion rate',
-  //   href: '#',
-  //   preview: 'Eget ullamcorper ac ut vulputate fames nec mattis pellentesque elementum. Viverra tempor id mus.',
-  //   imageUrl:
-  //     'https://images.unsplash.com/photo-1558478551-1a378f63328e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2849&q=80',
-  // },
-  // {
-  //   id: 2,
-  //   name: 'How to use search engine optimization to drive traffic to your site',
-  //   href: '#',
-  //   preview: 'Eget ullamcorper ac ut vulputate fames nec mattis pellentesque elementum. Viverra tempor id mus.',
-  //   imageUrl:
-  //     'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2300&q=80',
-  // },
-]
+    // {
+    //   id: 1,
+    //   name: 'Boost your conversion rate',
+    //   href: '#',
+    //   preview: 'Eget ullamcorper ac ut vulputate fames nec mattis pellentesque elementum. Viverra tempor id mus.',
+    //   imageUrl:
+    //     'https://images.unsplash.com/photo-1558478551-1a378f63328e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2849&q=80',
+    // },
+    // {
+    //   id: 2,
+    //   name: 'How to use search engine optimization to drive traffic to your site',
+    //   href: '#',
+    //   preview: 'Eget ullamcorper ac ut vulputate fames nec mattis pellentesque elementum. Viverra tempor id mus.',
+    //   imageUrl:
+    //     'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2300&q=80',
+    // },
+  ]
 
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ')
@@ -129,9 +135,9 @@ export default function Header() {
                             >
                               <div className="flex md:h-full lg:flex-col">
                                 <div className="flex-shrink-0">
-                                  <span className="inline-flex h-10 w-10 items-center justify-center rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
+                                  <div className="inline-flex h-10 w-10 items-center justify-center rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
                                     <item.icon className="h-6 w-6" aria-hidden="true" />
-                                  </span>
+                                  </div>
                                 </div>
                                 <div className="ml-4 md:flex md:flex-1 md:flex-col md:justify-between lg:ml-0 lg:mt-4">
                                   <div>
@@ -167,14 +173,14 @@ export default function Header() {
                   </>
                 )}
               </Popover>
-              <a 
-                href="https://docs.guance.com/" 
+              <a
+                href="https://docs.guance.com/"
                 className="text-base font-medium text-white hover:text-white"
               >
                 Documentations
               </a>
-              <a 
-                href="/contribution-guide" 
+              <a
+                href="/contribution-guide"
                 className="text-base font-medium text-white hover:text-white"
               >
                 Contributions
