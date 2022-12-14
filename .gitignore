@@ -1,5 +1,6 @@
 # Artifacts
 build/
+.build/
 
 # Temp files
 .DS_Store
@@ -8,3 +9,5 @@ build/
 *.swp
 .vscode/
 .idea/
+
+node_modules/

@@ -114,4 +114,3 @@ This guide inspires by many excellent materials. Here is the reference list:
 
 * [PingCap Contribution Guide](https://github.com/pingcap/community/blob/master/contributors/README.md)
 * [CNCF Contributor Ladder](https://glossary.cncf.io/contributor-ladder/)
-
