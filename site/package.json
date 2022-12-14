@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "workspaces": [
+    "home",
+    "guide"
+  ],
+  "dependencies": {
+    "@tailwindcss/typography": "^0.5.8"
+  }
+}
