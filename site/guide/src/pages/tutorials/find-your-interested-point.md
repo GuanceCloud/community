@@ -31,12 +31,12 @@ There are 3 way to contribute to Guance Cloud Open Source project:
 
 ### Write code
 
-See [How-to Guides: Make a Pull Request](/contribution-guide/how-to-guide/make-a-pull-request) for details.
+See [How-to Guides: Make a Pull Request](/contribution-guide/how-to-guides/make-a-pull-request) for details.
 
 ### Provide new idea
 
-See [How-to Guides: Draft a Proposal](/contribution-guide/how-to-guide/draft-a-proposal) for details.
+See [How-to Guides: Draft a Proposal](/contribution-guide/how-to-guides/draft-a-proposal) for details.
 
 ### Communicate with each other
 
-See [How-to Guides: Report an Issue](/contribution-guide/how-to-guide/report-an-issue) for details.
+See [How-to Guides: Report an Issue](/contribution-guide/how-to-guides/report-an-issue) for details.

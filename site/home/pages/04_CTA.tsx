@@ -89,7 +89,7 @@ export default function Contribution() {
                 className="block w-full rounded-md border border-transparent bg-white py-3 px-5 text-center text-base font-medium text-indigo-700 shadow-md hover:bg-gray-50 sm:inline-block sm:w-auto"
                 href="#"
               >
-                Get your badge link at here
+                Get your badge link at here (Comming soon ...)
               </a>
             </div>
           </div>
