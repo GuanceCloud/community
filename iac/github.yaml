@@ -1,0 +1,173 @@
+app_id: 30419448
+organization: GuanceCloud
+repositories:
+  community:
+    description: Guance Cloud Open Source Community
+    topics:
+      - open-source
+    private: true
+    homepage_url: "https://guance.io"
+    teams:
+      infra: push
+  platypus:
+    description: Platypus is a programming language for Observability Data Pipeline
+    topics:
+      - dsl
+      - data-processing
+      - observability
+      - go
+    has_discussions: true
+    allow_merge_commit: true
+    homepage_url: "https://platypus.guance.io"
+    teams:
+      infra: push
+  scheck:
+    description: Safety observable tool
+    topics:
+      - go
+      - shell
+      - security
+      - lua
+    private: false
+    teams:
+      infra: push
+  datakit:
+    description: DataKit is collection agent for Guance Cloud
+    topics:
+      - datakit
+      - go
+    private: false
+    teams:
+      infra: push
+  java-profiling-demo:
+    description: Guance Cloud profiling case demo (java)
+    topics:
+      - datakit
+      - profiling
+      - java
+    private: false
+    teams:
+      infra: push
+  dataflux-func:
+    description: DataFlux Func is a platform for developing, managing, executing Python scripts
+    homepage_url: https://func.guance.com
+    topics:
+      - serverless
+      - dataflux
+      - python
+    private: false
+    teams:
+      serverless: push
+  datakit-ios:
+    description: DataKit ios app
+    topics:
+      - datakit
+      - ios
+      - app
+      - objective-c
+    private: false
+    teams:
+      client: push
+  datakit-cpp:
+    description: programing
+    topics:
+      - datakit
+      - cpp
+    private: true
+    teams:
+      client: push
+  datakit-android:
+    description: Datakit Android app
+    topics:
+      - datakit
+      - java
+      - android
+    private: false
+    teams:
+      client: push
+  datakit-flutter:
+    description: Flutter plugin for datakit
+    topics:
+      - dart
+      - flutter
+      - datakit
+    private: false
+    teams:
+      client: push
+  datakit-react-native:
+    description: Guance Cloud Android iOS React Native SDK
+    topics:
+      - datakit
+      - javascript
+      - react
+      - react-native
+    private: true
+    teams:
+      client: push
+  datakit-miniprogram:
+    description: Scheme wechat mini program DataFlux RUM data collection SDK
+    topics:
+      - datakit
+      - javascript
+      - miniprogram
+    private: false
+    teams:
+      client: push
+  datakit-miniprogram-uniapp:
+    description: Based uniapp framework, compatible with the DataFlux RUM data collection SDK of various platforms
+    topics:
+      - datakit
+      - javascript
+      - uniapp
+      - miniprogram
+    private: false
+    teams:
+      client: push
+  datakit-js:
+    description: DataFlux RUM Web side data indicator monitoring
+    topics:
+      - javascript
+      - datakit
+    private: false
+    teams:
+      client: push
+teams:
+  infra:
+    description: The team for infra
+    members:
+      - username: coanor
+        role: maintainer
+      - username: BrotherSam66
+        role: member
+      - username: charleswan
+        role: member
+      # - username: songlq
+      #   role: member
+      - username: vircoys
+        role: member
+      - username: zhyee
+        role: member
+      - username: yufeiminds
+        role: maintainer
+  web:
+    description: The team of client
+    members:
+      - username: arnoldlynndeng
+        role: member
+  client:
+    description: The team of client
+    members:
+      - username: Br4ndonZhang
+        role: member
+      - username: wawahuhu
+        role: member
+  serverless:
+    description: The team for serverless computing
+    members:
+      - username: pastgift
+        role: member
+  docs:
+    description: The team for documentation engineering
+    members:
+      - username: Wendy1129
+        role: member

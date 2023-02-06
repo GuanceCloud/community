@@ -1,0 +1,19 @@
+{
+    "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+    "version": "0.2",
+    "dictionaryDefinitions": [
+        {
+            "name": "glossary",
+            "path": "./glossary.txt",
+            "addWords": true
+        }
+    ],
+    "dictionaries": [
+        "glossary"
+    ],
+    "ignorePaths": [
+        ".github",
+        "node_moles",
+        "/tools/cspell/glossary.txt"
+    ]
+}
