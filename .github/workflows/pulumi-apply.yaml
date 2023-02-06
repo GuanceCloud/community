@@ -14,7 +14,9 @@ jobs:
       - uses: pulumi/actions@v3
         with:
           command: preview
-          stack-name: GuanceCloud/github # When using an individual account, only use stack-name.
+          stack-name: GuanceCloud/community/github # When using an individual account, only use stack-name.
+          comment-on-pr: true
+          work-dir: internal/iac/github
         env:
           PULUMI_ACCESS_TOKEN: ${{ secrets.PULUMI_ACCESS_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GUANCE_BOT_TOKEN }}

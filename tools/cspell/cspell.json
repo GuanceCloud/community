@@ -12,8 +12,8 @@
         "glossary"
     ],
     "ignorePaths": [
-        ".gitignore",
-        "node_modules",
+        ".github",
+        "node_moles",
         "/tools/cspell/glossary.txt"
     ]
 }
