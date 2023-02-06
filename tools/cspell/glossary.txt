@@ -1,0 +1,18 @@
+# 专有名词
+Guance
+DataKit
+Laravel
+Markdoc
+
+# 缩写
+CMYK
+CNCF
+
+# 合成词
+roadmap
+
+# 连词
+golangci
+
+# 极限词
+!最
