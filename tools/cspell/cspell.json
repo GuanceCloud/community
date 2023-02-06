@@ -12,7 +12,7 @@
         "glossary"
     ],
     "ignorePaths": [
-        "cue.mod",
+        ".gitignore",
         "node_modules",
         "/tools/cspell/glossary.txt"
     ]
