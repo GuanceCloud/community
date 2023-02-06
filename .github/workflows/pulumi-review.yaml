@@ -1,11 +1,9 @@
-name: Pulumi Apply
+name: Pulumi Review
 on:
-  push:
-    branches:
-      - main
+  - pull_request
 jobs:
-  update:
-    name: Update
+  preview:
+    name: Preview
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -15,7 +13,7 @@ jobs:
       - run: go mod download
       - uses: pulumi/actions@v3
         with:
-          command: up
+          command: preview
           stack-name: GuanceCloud/community/github
           work-dir: internal/iac/github
         env:
