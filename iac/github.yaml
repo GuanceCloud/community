@@ -1,6 +1,11 @@
 app_id: 30419448
 organization: GuanceCloud
 repositories:
+  openapi:
+    description: Guance Cloud Open API Specification
+    topics:
+    - openapi
+    private: true
   community:
     description: Guance Cloud Open Source Community
     topics:
