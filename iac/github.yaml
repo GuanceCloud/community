@@ -26,6 +26,17 @@ repositories:
     homepage_url: "https://platypus.guance.io"
     teams:
       infra: push
+  terraform-provider-guance:
+    description: Terraform provider for Guance Cloud
+    topics:
+      - terraform
+      - terraform-provider
+      - observability
+      - go
+    has_discussions: true
+    homepage_url: "https://registry.terraform.io/providers/ucloud/ucloud"
+    teams:
+      infra: push
   scheck:
     description: Safety observable tool
     topics:
