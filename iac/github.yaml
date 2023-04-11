@@ -165,7 +165,7 @@ teams:
         role: member
       - username: yufeiminds
         role: maintainer
-      - username: lishiwu
+      - username: lsw45
         role: member
   web:
     description: The team of client
