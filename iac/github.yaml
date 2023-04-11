@@ -1,6 +1,12 @@
 app_id: 30419448
 organization: GuanceCloud
 repositories:
+  dql-go:
+    description: Guance Cloud DQL Golang SDK
+    topics:
+    - sdk
+    - golang
+    private: false
   openapi:
     description: Guance Cloud Open API Specification
     topics:
