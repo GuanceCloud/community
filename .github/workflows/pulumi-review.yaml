@@ -19,4 +19,4 @@ jobs:
         env:
           PULUMI_ACCESS_TOKEN: ${{ secrets.PULUMI_ACCESS_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GUANCE_BOT_TOKEN }}
-          GITHUB_OWNER: ${{ secrets.PULUMI_OWNER }}
+          GITHUB_OWNER: GuanceCloud
