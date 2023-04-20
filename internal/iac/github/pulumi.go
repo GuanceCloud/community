@@ -2,6 +2,8 @@ package main
 
 import (
 	"fmt"
+	"log"
+	"os"
 
 	"github.com/hashicorp/go-multierror"
 	"github.com/pulumi/pulumi-github/sdk/v5/go/github"
@@ -13,6 +15,7 @@ func build(ctx *pulumi.Context, spec Spec) error {
 	teams := make(map[string]*github.Team)
 	repositories := make(map[string]*github.Repository)
 
+	log.Println("Applying organization:", os.Getenv("GITHUB_OWNER"))
 	provider, err := github.NewProvider(ctx, "github", &github.ProviderArgs{
 		Owner: pulumi.String(spec.Organization),
 	})
