@@ -26,9 +26,18 @@ repositories:
     private: false
     teams:
       infra: push
+  guance.io:
+    description: Website for Guance Cloud Community (used to be in the community repository)
+    topics:
+    - guance
+    - open-source 
+    private: false
+    teams:
+      infra: push
   terraform-guance-dashboard:
     description: Terraform provider for Guance Cloud
     topics:
+      - guance
       - terraform
       - terraform-module
       - observability
@@ -39,6 +48,7 @@ repositories:
   terraform-guance-monitor:
     description: Terraform provider for Guance Cloud
     topics:
+      - guance
       - terraform
       - terraform-module
       - observability
@@ -49,6 +59,7 @@ repositories:
   terraform-provider-guance:
     description: Terraform provider for Guance Cloud
     topics:
+      - guance
       - terraform
       - terraform-provider
       - observability
