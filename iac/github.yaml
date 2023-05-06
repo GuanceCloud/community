@@ -1,34 +1,29 @@
 app_id: 30419448
 organization: GuanceCloud
 repositories:
-  dql-go:
-    description: Guance Cloud DQL Golang SDK
+  guance-scenarios:
+    description: Interactive Scenarios for Guance Cloud
     topics:
-    - sdk
-    - golang
+    - guance
+    - killercoda
     private: false
-  openapi:
-    description: Guance Cloud Open API Specification
-    topics:
-    - openapi
-    private: true
-  community:
-    description: Guance Cloud Open Source Community
-    topics:
-      - open-source
-    homepage_url: "https://guance.io"
     teams:
       infra: push
-  platypus:
-    description: Platypus is a programming language for Observability Data Pipeline
+  guance-cli:
+    description: Command-Line Toolkit for Guance Cloud
     topics:
-      - dsl
-      - data-processing
-      - observability
-      - go
-    has_discussions: true
-    allow_merge_commit: true
-    homepage_url: "https://platypus.guance.io"
+    - guance
+    - cli
+    - golang
+    private: false
+    teams:
+      infra: push
+  setup-guance:
+    description: GitHub Action for Guance Cloud
+    topics:
+    - guance
+    - github-action 
+    private: false
     teams:
       infra: push
   terraform-guance-dashboard:
@@ -60,6 +55,36 @@ repositories:
       - go
     has_discussions: true
     homepage_url: "https://registry.terraform.io/providers/GuanceCloud/guance"
+    teams:
+      infra: push
+  dql-go:
+    description: Guance Cloud DQL Golang SDK
+    topics:
+    - sdk
+    - golang
+    private: false
+  openapi:
+    description: Guance Cloud Open API Specification
+    topics:
+    - openapi
+    private: true
+  community:
+    description: Guance Cloud Open Source Community
+    topics:
+      - open-source
+    homepage_url: "https://guance.io"
+    teams:
+      infra: push
+  platypus:
+    description: Platypus is a programming language for Observability Data Pipeline
+    topics:
+      - dsl
+      - data-processing
+      - observability
+      - go
+    has_discussions: true
+    allow_merge_commit: true
+    homepage_url: "https://platypus.guance.io"
     teams:
       infra: push
   scheck:
