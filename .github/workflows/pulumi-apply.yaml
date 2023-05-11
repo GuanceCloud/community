@@ -3,6 +3,8 @@ on:
   push:
     branches:
       - main
+    paths:
+      - "iac/**"
 jobs:
   update:
     name: Update
