@@ -1,6 +1,8 @@
 name: Pulumi Review
 on:
-  - pull_request
+  pull_request:
+    paths:
+      - "iac/**"
 jobs:
   preview:
     name: Preview

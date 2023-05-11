@@ -1,7 +1,7 @@
 Title
 ----
 * Author(s): [Author Name, Co-Author Name ...]
-* Approver: yufeiminds
+* Approver: [Any maintainer in GitHub OWNERS file]
 * Status: {Draft, In Review, Ready for Implementation, Implemented}
 * Last updated: [Date]
 * Discussion at: GitHub issues (comma separated, filled after thread exists)
