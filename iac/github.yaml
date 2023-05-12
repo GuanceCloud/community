@@ -5,7 +5,7 @@ repositories:
     description: JSON model for Guance Cloud Console
     topics:
     - guance
-    - buf.build
+    - buf
     - protobuf
     - typescript
     private: false
