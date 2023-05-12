@@ -1,6 +1,16 @@
 app_id: 30419448
 organization: GuanceCloud
 repositories:
+  json-model:
+    description: JSON model for Guance Cloud Console
+    topics:
+    - guance
+    - buf.build
+    - protobuf
+    - typescript
+    private: false
+    teams:
+      infra: push
   guance-scenarios:
     description: Interactive Scenarios for Guance Cloud
     topics:
