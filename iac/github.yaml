@@ -1,6 +1,14 @@
 app_id: 30419448
 organization: GuanceCloud
 repositories:
+  terraform-operator:
+    description: The universal control-plane for Guance IaC stack
+    topics:
+    - guance
+    - terraform
+    private: true
+    teams:
+      infra: push
   json-model:
     description: JSON model for Guance Cloud Console
     topics:
