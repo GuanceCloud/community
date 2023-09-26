@@ -1,6 +1,45 @@
 app_id: 30419448
 organization: GuanceCloud
 repositories:
+  terraform-guance-forwarder:
+    description: The logging and event forwarder for any cloud provider
+    topics:
+    - guance
+    - aws
+    - azure
+    - google
+    - tencentcloud
+    - huaweicloud
+    - alicloud
+    private: false
+    teams:
+      infra: push
+  kubevela-addon-guance:
+    description: The KubeVela provider for Guance Cloud
+    topics:
+    - guance
+    - kubevela
+    private: false
+    teams:
+      infra: push
+  crossplane-provider-guance:
+    description: The Crossplane provider for Guance Cloud
+    topics:
+    - guance
+    - crossplane
+    private: false
+    teams:
+      infra: push
+  iacker:
+    description: The Infrastructure as Code Development Framework
+    topics:
+    - guance
+    - terraform
+    - crossplane
+    - kubevela
+    private: false
+    teams:
+      infra: push
   terraform-operator:
     description: The universal control-plane for Guance IaC stack
     topics:
